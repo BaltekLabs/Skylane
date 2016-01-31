@@ -5,6 +5,9 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic'])
 
+.controller('AppCtrl', function($scope) {
+  $scope.platform = ionic.Platform.platform();
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -21,4 +24,10 @@ angular.module('starter', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+
+  $stateProvider.state('home', {
+  url: '/home',
+  templateUrl: 'templates/home.html'
+})
+})
 })
