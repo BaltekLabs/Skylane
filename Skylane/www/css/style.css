@@ -12,7 +12,6 @@
 /* Page Styles */
 
 .home {
-    background: url("img/ramp.jpg") no-repeat center;
-    height: 1500px;
-    width: 750px;
+    background: url(img/ramp.jpg) no-repeat relative;
+  
 }
