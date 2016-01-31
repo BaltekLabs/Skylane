@@ -12,7 +12,7 @@
 /* Page Styles */
 
 .home {
-   /*background-image: url("img/ramp.jpg") no-repeat center;*/
+   background-image: url("img/ramp.jpg") no-repeat center;
     position: absolute;
     background-color: black;
   
