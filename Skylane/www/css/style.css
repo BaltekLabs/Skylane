@@ -12,8 +12,13 @@
 /* Page Styles */
 
 .home {
-   background-image: url("img/ramp.jpg") no-repeat center;
+   /*background-image: url("img/ramp.jpg") no-repeat center;*/
     position: absolute;
     background-color: black;
   
+}
+
+.map {
+height:100%;
+width:100%;
 }
