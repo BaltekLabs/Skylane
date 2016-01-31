@@ -5,6 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic'])
 
+
+
 .controller('AppCtrl', function($scope) {
   $scope.platform = ionic.Platform.platform();
 
@@ -24,10 +26,15 @@ angular.module('starter', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+})
+  
+ 
 
-  $stateProvider.state('home', {
+app.config(function($stateProvider) {
+  $stateProvider
+  .state('home', {
   url: '/home',
-  templateUrl: 'templates/home.html'
+  templateUrl: 'templates/home.html',
+  controller: 'AppCtrl'
 })
-})
-})
+});
