@@ -2,7 +2,7 @@
 
 /*Header Styles*/
 
-h1   {
+.h1   {
 	font-size: 36px;
 	color: #ffffff;
 	text-align: center;
@@ -11,7 +11,7 @@ h1   {
 
 /* Page Styles */
 
-body {
+.home {
     background: url("img/ramp.jpg") no-repeat center;
     height: 1500px;
     width: 750px;
