@@ -12,7 +12,7 @@ h1   {
 /* Page Styles */
 
 body {
-    background-image: url("img/ramp.jpg");
+    background-image:"img/ramp.jpg";
     background-color: #00000;
 }
 }
