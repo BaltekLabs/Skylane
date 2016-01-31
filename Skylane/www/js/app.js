@@ -35,12 +35,12 @@ app.config(function($stateProvider,$urlRouterProvider) {
   templateUrl: 'templates/home.html'
 })
 
-  .state('map', {
+  /*.state('map', {
   url: '/map',
   templateUrl: 'templates/map.html',
   controller: 'MapCtrl'
-})
-  
+})*/
+
    $urlRouterProvider.otherwise('/home');
 });
 
