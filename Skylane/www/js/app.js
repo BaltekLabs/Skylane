@@ -46,7 +46,7 @@ app.config(function($stateProvider,$urlRouterProvider) {
 
 
 
-
+/*
 .controller('MapCtrl', function($scope,initMap,callback,createMarker) {
   
 var map;
