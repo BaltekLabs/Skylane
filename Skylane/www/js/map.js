@@ -1,5 +1,5 @@
 
-app.controller('MapCtrl', function($scope,initMap,callback,createMarker) {
+app.controller('MapCtrl', function(,initMap,callback,createMarker) {
   
 var map;
 var infowindow;
