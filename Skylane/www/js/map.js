@@ -1,7 +1,10 @@
 
-app.controller('MapCtrl', function(,initMap,callback,createMarker) {
+app.controller('MapCtrl', function(NgMap,initMap,callback,createMarker) {
   
-var map;
+  <ng-map zoom="12" center="columba, south carolina" style="height:100%">
+  </ng-map>
+})
+/*var map;
 var infowindow;
 
 function initMap() {
@@ -43,4 +46,4 @@ function createMarker(place) {
   });
 }
 
-})
+})*/
