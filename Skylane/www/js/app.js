@@ -37,6 +37,15 @@ app.config(function($stateProvider,$urlRouterProvider) {
    $urlRouterProvider.otherwise('/home');
 });
 
+.state('map', {
+  url: '/map',
+  templateUrl: 'templates/map.html',
+  controller: 'MapCtrl'
+})
+
+
+.controller('MapCtrl', function($scope,initMap,callback,createMarker) {
+  
 var map;
 var infowindow;
 
@@ -78,3 +87,5 @@ function createMarker(place) {
     infowindow.open(map, this);
   });
 }
+
+})
