@@ -30,11 +30,12 @@ angular.module('starter', ['ionic'])
   
  
 
-app.config(function($stateProvider) {
+app.config(function($stateProvider,$urlRouterProvider) {
   $stateProvider
   .state('home', {
   url: '/home',
   templateUrl: 'templates/home.html',
   controller: 'AppCtrl'
 })
+   $urlRouterProvider.otherwise('/home');
 });
