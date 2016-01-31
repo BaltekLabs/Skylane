@@ -34,14 +34,17 @@ app.config(function($stateProvider,$urlRouterProvider) {
   url: '/home',
   templateUrl: 'templates/home.html'
 })
-   $urlRouterProvider.otherwise('/home');
-});
 
-.state('map', {
+  .state('map', {
   url: '/map',
   templateUrl: 'templates/map.html',
   controller: 'MapCtrl'
 })
+  
+   $urlRouterProvider.otherwise('/home');
+});
+
+
 
 
 .controller('MapCtrl', function($scope,initMap,callback,createMarker) {
