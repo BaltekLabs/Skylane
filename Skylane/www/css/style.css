@@ -1,8 +1,21 @@
 /* Empty. Add your own CSS if you like */
 
+/*Header Styles*/
 
-h1   {
+#h1   {
 	font-size: 36px;
 	color: #ffffff;
 	text-align: center;
+}
+
+
+/* Page Styles */
+
+#page {
+
+.home {
+background—color: #444;
+
+}
+
 }
