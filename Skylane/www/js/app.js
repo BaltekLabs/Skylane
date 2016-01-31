@@ -91,4 +91,4 @@ function createMarker(place) {
   });
 }
 
-})
+})*/
