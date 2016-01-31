@@ -12,6 +12,6 @@
 /* Page Styles */
 
 .home {
-    background: url(img/ramp.jpg) no-repeat relative;
+    background: src= "img/ramp.jpg" no-repeat relative;
   
 }
